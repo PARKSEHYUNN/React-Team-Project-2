@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: '한빛체';
+}
+
+.backcolor {
+  background-color: rgb(60, 179, 113);
+  padding: 5%;
+  text-align: center;
+  }
+  
+.explainbox {
+  padding: 5%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgb(125, 125, 125);
+  line-height: 40px;
+}
+
+.test_box {
+  height: 60%;
+  padding: 5%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgb(125, 125, 125);
+}
+
+.select_box {
+  display: flex;
+  border: 5px solid #000000;
+  position: relative;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 40%;
+  height: 450px;
+  border-radius: 10px;
+  
+  box-shadow: 0 0 50px rgb(171, 170, 170);
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 150%;
+  justify-content: center;
+
+}
+
+.button_next {
+  background-color: #edf7ac;
+  margin: 2%;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #000000;
+  box-shadow: 0 0 20px #edf7ac;
+}
+
+.button_back {
+  background-color: #edf7ac;
+  margin: 2%;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #000000;
+  box-shadow: 0 0 20px #edf7ac;
+}
+
+.button_result {
+  background-color: #ff5252;
+  margin: 2%;
+  height: 50px;
+  width: 150px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #000000;
+  box-shadow: 0 0 20px #ff5252;
+}
+
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.imageWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f0f0f0 ;
+  font-size: 18px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px #000000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.accuracyText {
+  margin-top: 5%;
+  font-size: 38px;
+}

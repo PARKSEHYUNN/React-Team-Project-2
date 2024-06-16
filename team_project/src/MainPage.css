@@ -1,0 +1,60 @@
+.main-page {
+  display: flex;
+  background-color: #f0f0f0;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.problem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-wrapper {
+  margin: 50px;
+}
+
+.main-btn {
+  display: inline-grid;
+  padding: 20px;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.main-pic{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.btn1{
+  background-color: blue;
+}
+.btn1:hover {
+  background-color: lightblue;
+}
+
+.btn2{
+  background-color: red;
+}
+.btn2:hover {
+  background-color: pink;
+}
+
+.btn3{
+  background-color: green;
+}
+.btn3:hover {
+  background-color: yellowgreen;
+}
+
+.btn4{
+  background-color: orange;
+}
+.btn4:hover {
+  background-color: peachpuff;
+}
